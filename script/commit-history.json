@@ -38,12 +38,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed0c9d1f866c36ffa65b76e158804bb6c89e6792",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-14T15:43:48.000Z",
       "message": "fix: correcion en el saludo por nombre",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/ed0c9d1f866c36ffa65b76e158804bb6c89e6792"
     },
     "stats": {
       "total": 79,
@@ -55,5 +55,81 @@
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "4a6fc815020453d42ee8a4e3713f832cbc0bd708",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T20:14:56.000Z",
+      "message": "feature: Agregamos el saludar segun la hora",
+      "url": "https://github.com/la39pato/Chatbot/commit/4a6fc815020453d42ee8a4e3713f832cbc0bd708"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 39,
+      "deletions": 6,
+      "date": "2026-02-14"
+    },
+    "coverage": 0,
+    "test_count": 4,
+    "failed_tests": 4,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "4a6fc815020453d42ee8a4e3713f832cbc0bd708",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T20:41:57.000Z",
+      "message": "refactor: mejora del mensaje del saludo",
+      "url": "https://github.com/la39pato/Chatbot/commit/4a6fc815020453d42ee8a4e3713f832cbc0bd708"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-02-14"
+    },
+    "coverage": 0,
+    "test_count": 4,
+    "failed_tests": 4,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "ed0c9d1f866c36ffa65b76e158804bb6c89e6792",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T20:57:56.000Z",
+      "message": "feature: Agregamos el saludar segun la hora",
+      "url": "https://github.com/la39pato/Chatbot/commit/ed0c9d1f866c36ffa65b76e158804bb6c89e6792"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 9,
+      "deletions": 20,
+      "date": "2026-02-14"
+    },
+    "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T21:08:09.000Z",
+      "message": "feature: Se agrego el saludar segun la hora",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 39,
+      "deletions": 15,
+      "date": "2026-02-14"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
   }
 ]
