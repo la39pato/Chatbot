@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Chat bot</title>
+    <meta charset="UTF-8" />
+    <title>ChatBot</title>
   </head>
   <body>
-    <h1>hola</h1>
+    <h1>Chatbot</h1>
+
+    <form id="chat-form">
+      <label for="nombre">Escribe tu nombre:</label>
+      <input type="text" id="nombre" required />
+      <input type="submit" value="Enviar" id="send-button" />
+    </form>
+
+    <div id="chat-output"></div>
+
+    <script type="module" src="./src/presenter.js"></script>
   </body>
 </html>

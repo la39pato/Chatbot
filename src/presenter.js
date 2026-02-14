@@ -1,15 +1,16 @@
-import sumar from "./sumador";
+import saludar from "./saludar.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const nombreInput = document.querySelector("#nombre");
+const form = document.querySelector("#chat-form");
+const chatOutput = document.querySelector("#chat-output");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const nombre = nombreInput.value;
+  const mensaje = saludar(nombre);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  chatOutput.innerHTML = "<p>" + mensaje + "</p>";
+
+  nombreInput.value = "";
 });
