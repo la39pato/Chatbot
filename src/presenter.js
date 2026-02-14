@@ -2,6 +2,7 @@ import { construirSaludo } from "./saludar.js";
 
 const nombreInput = document.querySelector("#nombre");
 const generoInput = document.querySelector("#genero");
+const edadInput = document.querySelector("#edad");
 const form = document.querySelector("#chat-form");
 const chatOutput = document.querySelector("#chat-output");
 
@@ -10,12 +11,14 @@ form.addEventListener("submit", (event) => {
 
   const nombre = nombreInput.value.trim();
   const genero = generoInput.value;
+  const edad = parseInt(edadInput.value);
   const horaActual = new Date().getHours();
 
-  const mensajeFinal = construirSaludo(nombre, genero, horaActual);
+  const mensajeFinal = construirSaludo(nombre, genero, edad, horaActual);
 
   chatOutput.innerHTML = "<p>" + mensajeFinal + "</p>";
 
   nombreInput.value = "";
   generoInput.value = "";
+  edadInput.value = "";
 });

@@ -16,21 +16,21 @@ function saludarhora(hora) {
   }
 }
 
-function obtenerTratamiento(genero) {
+function obtenerTratamiento(genero, edad) {
   if (genero === "m") {
-    return "señor";
+    return edad > 30 ? "Sr." : "caballero";
   } else if (genero === "f") {
-    return "señora";
+    return edad > 30 ? "Sra." : "señorita";
   } else {
     return "";
   }
 }
 
-function construirSaludo(nombre, genero, hora) {
+function construirSaludo(nombre, genero, edad, hora) {
   const saludoHora = saludarhora(hora);
-  const tratamiento = obtenerTratamiento(genero);
+  const tratamiento = obtenerTratamiento(genero, edad);
 
-  return "Hola " + saludoHora + " " + tratamiento + " " + nombre;
+  return "Hola " + saludoHora + " " + tratamiento + ", " + nombre;
 }
 
 export { saludar, saludarhora, construirSaludo };
