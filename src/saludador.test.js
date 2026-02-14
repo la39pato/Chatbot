@@ -1,4 +1,4 @@
-import saludar from "./saludar.js";
+import { saludar } from "./saludar.js";
 
 describe("Saludar", () => {
   it("deberia saludar a una persona", () => {
