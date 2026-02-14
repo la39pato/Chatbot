@@ -247,12 +247,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "e34b7ccb086925b733a8884034619b7dd0bab17f",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-14T23:13:57.000Z",
       "message": "feature: Agregamos el saludo segun edad",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/e34b7ccb086925b733a8884034619b7dd0bab17f"
     },
     "stats": {
       "total": 30,
@@ -261,6 +261,25 @@
       "date": "2026-02-14"
     },
     "coverage": 12.5,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T23:34:47.000Z",
+      "message": "feature: Agregamos el saludo depende al idioma",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 63,
+      "additions": 46,
+      "deletions": 17,
+      "date": "2026-02-14"
+    },
+    "coverage": 6.9,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
