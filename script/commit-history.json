@@ -171,12 +171,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "0ee0e6aa571fd6b3ce16c696efa07f02d98af07b",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-14T21:36:09.000Z",
       "message": "feature: Se agrego el saludar segun la hora",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/0ee0e6aa571fd6b3ce16c696efa07f02d98af07b"
     },
     "stats": {
       "total": 4,
@@ -185,6 +185,44 @@
       "date": "2026-02-14"
     },
     "coverage": 25,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0ee0e6aa571fd6b3ce16c696efa07f02d98af07b",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T22:30:52.000Z",
+      "message": "feature: Agregamos saludo segun genero",
+      "url": "https://github.com/la39pato/Chatbot/commit/0ee0e6aa571fd6b3ce16c696efa07f02d98af07b"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 40,
+      "deletions": 10,
+      "date": "2026-02-14"
+    },
+    "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T22:47:58.000Z",
+      "message": "feature: Agregamos saludo segun genero",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 44,
+      "deletions": 8,
+      "date": "2026-02-14"
+    },
+    "coverage": 12.5,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"

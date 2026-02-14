@@ -16,4 +16,21 @@ function saludarhora(hora) {
   }
 }
 
-export { saludar, saludarhora };
+function obtenerTratamiento(genero) {
+  if (genero === "m") {
+    return "señor";
+  } else if (genero === "f") {
+    return "señora";
+  } else {
+    return "";
+  }
+}
+
+function construirSaludo(nombre, genero, hora) {
+  const saludoHora = saludarhora(hora);
+  const tratamiento = obtenerTratamiento(genero);
+
+  return "Hola " + saludoHora + " " + tratamiento + " " + nombre;
+}
+
+export { saludar, saludarhora, construirSaludo };
