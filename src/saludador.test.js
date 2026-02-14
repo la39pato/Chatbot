@@ -5,5 +5,3 @@ describe("Saludar", () => {
     expect(saludar("Juan")).toEqual("Hola, Juan");
   });
 });
-
-

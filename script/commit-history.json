@@ -133,17 +133,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "e2a7d303f8b2b859f45563c1b2566c68a4e900cd",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-14T21:19:22.000Z",
       "message": "feature: Se agrego el saludar segun la hora",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/e2a7d303f8b2b859f45563c1b2566c68a4e900cd"
     },
     "stats": {
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-02-14"
+    },
+    "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-14T21:26:29.000Z",
+      "message": "feature: Se agrego el saludar segun la hora",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 1,
+      "deletions": 3,
       "date": "2026-02-14"
     },
     "coverage": 0,
