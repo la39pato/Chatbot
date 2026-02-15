@@ -18,7 +18,9 @@ form.addEventListener("submit", (event) => {
 
   const mensajeFinal = construirSaludo(nombre, genero, edad, horaActual, idioma);
 
-  chatOutput.innerHTML = "<p>" + mensajeFinal + "</p>";
+  chatOutput.innerHTML += "<div class='bot-message'>" + mensajeFinal + "</div>";
+  chatOutput.scrollTop = chatOutput.scrollHeight;
+
 
   nombreInput.value = "";
   generoInput.value = "";

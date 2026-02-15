@@ -84,9 +84,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0d85a7502b118bb51afc50e1ac8c1aeb07862a29",
     "commitName": "feature: Agregamos el saludo depende al idioma",
     "commitTimestamp": 1771112087813,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: aplicar estilos al chat",
+    "commitTimestamp": 1771118850321,
+    "testId": 15
   }
 ]

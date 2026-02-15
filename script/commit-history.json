@@ -266,18 +266,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0d85a7502b118bb51afc50e1ac8c1aeb07862a29",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-14T23:34:47.000Z",
       "message": "feature: Agregamos el saludo depende al idioma",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/0d85a7502b118bb51afc50e1ac8c1aeb07862a29"
     },
     "stats": {
       "total": 63,
       "additions": 46,
       "deletions": 17,
       "date": "2026-02-14"
+    },
+    "coverage": 6.9,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-15T01:27:29.000Z",
+      "message": "style: aplicar estilos al chat",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 125,
+      "additions": 104,
+      "deletions": 21,
+      "date": "2026-02-15"
     },
     "coverage": 6.9,
     "test_count": 1,
