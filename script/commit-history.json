@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e9ec400e5ddb2289ad837ced179fc46bc9b48015",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-15T01:27:29.000Z",
       "message": "style: aplicar estilos al chat",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/e9ec400e5ddb2289ad837ced179fc46bc9b48015"
     },
     "stats": {
       "total": 125,
       "additions": 104,
       "deletions": 21,
+      "date": "2026-02-15"
+    },
+    "coverage": 6.9,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-15T01:39:19.000Z",
+      "message": "fix: correccion de estilos",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-02-15"
     },
     "coverage": 6.9,
