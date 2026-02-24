@@ -102,9 +102,15 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "38b19b07011822c08535d20880400fe1190f9ee9",
     "commitName": "feat: tomar en cuenta un numero",
     "commitTimestamp": 1771942606931,
     "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tomar en cuenta dos numeros",
+    "commitTimestamp": 1771943104965,
+    "testId": 18
   }
 ]

@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "38b19b07011822c08535d20880400fe1190f9ee9",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-24T14:16:44.000Z",
       "message": "feat: tomar en cuenta un numero",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/38b19b07011822c08535d20880400fe1190f9ee9"
     },
     "stats": {
       "total": 40,
@@ -338,6 +338,25 @@
     },
     "coverage": 79.31,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-24T14:25:03.000Z",
+      "message": "feat: tomar en cuenta dos numeros",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 11,
+      "deletions": 4,
+      "date": "2026-02-24"
+    },
+    "coverage": 80.65,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
