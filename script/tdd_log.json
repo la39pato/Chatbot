@@ -96,9 +96,15 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "12a07ec4410814a37239a4aae58829fb1e9e97d1",
     "commitName": "fix: correccion de estilos",
     "commitTimestamp": 1771119560033,
     "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tomar en cuenta un numero",
+    "commitTimestamp": 1771942606931,
+    "testId": 17
   }
 ]

@@ -1,0 +1,21 @@
+FIZZBUZZ - lista de casos de prueba:
+
+caso base
+- Entrada: negativos , 0 Salida esperada: ""
+
+- Entrada: 1, Salida esperada: "1"
+- Entrada: 2, Salida esperada: "2"
+- Entrada: 3, Salida esperada: "Fizz"
+- Entrada: 4, Salida esperada: "4"
+- Entrada: 5, Salida esperada: "Buzz"
+- Entrada: 6, Salida esperada: "Fizz"
+- Entrada: 9, Salida esperada: "Fizz"
+- Entrada: 10, Salida esperada: "Buzz"
+- Entrada: 15, Salida esperada: "FizzBuzz"
+- Entrada: 20, Salida esperada: "Buzz"
+- Entrada: 30, Salida esperada: "FizzBuzz"
+- Entrada: 45, Salida esperada: "FizzBuzz"
+- Entrada: 100, Salida esperada: "Buzz"
+
+
+

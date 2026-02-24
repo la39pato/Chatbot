@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "12a07ec4410814a37239a4aae58829fb1e9e97d1",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-15T01:39:19.000Z",
       "message": "fix: correccion de estilos",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/12a07ec4410814a37239a4aae58829fb1e9e97d1"
     },
     "stats": {
       "total": 2,
@@ -319,6 +319,25 @@
     },
     "coverage": 6.9,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-24T14:16:44.000Z",
+      "message": "feat: tomar en cuenta un numero",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 40,
+      "deletions": 0,
+      "date": "2026-02-24"
+    },
+    "coverage": 79.31,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }
