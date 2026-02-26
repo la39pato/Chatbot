@@ -156,9 +156,15 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06723ca403f2e2970c586b94ab3b3ce43cfdd8a2",
     "commitName": "refactory: del codigo inicial del juego",
     "commitTimestamp": 1772114417888,
     "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: el jugador 1 gana 1 punto",
+    "commitTimestamp": 1772114978017,
+    "testId": 27
   }
 ]

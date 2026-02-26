@@ -6,11 +6,11 @@ describe("tennis", () => {
         expect(tennis.score()).toEqual("Love - Love");
     });
 
-    // it("Jugador 1 anota un punto", () => {
-    //    let tennis = Tennis.new();
-    //     tennis.player1Scores();
-    //     expect(tennis.score()).toEqual("Fifteen - Love");
-    // });
+    it("Jugador 1 anota un punto", () => {
+       let tennis = new Tennis ();
+        tennis.player1Scores();
+        expect(tennis.score()).toEqual("15 - Love");
+    });
 });
 
 
