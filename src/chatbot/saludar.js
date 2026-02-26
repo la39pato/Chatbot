@@ -27,20 +27,20 @@ function saludarhora(hora, idioma) {
 }
 
 function obtenerTratamiento(genero, edad, idioma) {
-  if (idioma === "en") {
-    if (genero === "m") {
-      return edad > 30 ? "Mr." : "young gentleman";
-    } else if (genero === "f") {
-      return edad > 30 ? "Mrs." : "young lady";
+  const esMayor = edad > 30;
+
+  const tratamientos = {
+    en: {
+      m: esMayor ? "Mr." : "young gentleman",
+      f: esMayor ? "Mrs." : "young lady"
+    },
+    es: {
+      m: esMayor ? "Sr." : "caballero",
+      f: esMayor ? "Sra." : "señorita"
     }
-  } else {
-    if (genero === "m") {
-      return edad > 30 ? "Sr." : "caballero";
-    } else if (genero === "f") {
-      return edad > 30 ? "Sra." : "señorita";
-    }
-  }
-  return "";
+  };
+
+  return tratamientos[idioma]?.[genero] ?? "";
 }
 
 function construirSaludo(nombre, genero, edad, hora, idioma) {
@@ -54,4 +54,4 @@ function construirSaludo(nombre, genero, edad, hora, idioma) {
   }
 }
 
-export { saludar, saludarhora, construirSaludo };
+export { saludar, saludarhora, construirSaludo,obtenerTratamiento };

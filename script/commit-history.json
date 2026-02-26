@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "57df2b241312119cef42836f1a500634a33fdfaa",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-24T14:25:03.000Z",
       "message": "feat: tomar en cuenta dos numeros",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/57df2b241312119cef42836f1a500634a33fdfaa"
     },
     "stats": {
       "total": 15,
@@ -357,6 +357,25 @@
     },
     "coverage": 80.65,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-26T12:08:53.000Z",
+      "message": "feat: tomar en cuenta modulo de 3 con Fizz",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 156,
+      "additions": 134,
+      "deletions": 22,
+      "date": "2026-02-26"
+    },
+    "coverage": 81.82,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

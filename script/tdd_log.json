@@ -108,9 +108,15 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "57df2b241312119cef42836f1a500634a33fdfaa",
     "commitName": "feat: tomar en cuenta dos numeros",
     "commitTimestamp": 1771943104965,
     "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tomar en cuenta modulo de 3 con Fizz",
+    "commitTimestamp": 1772107735334,
+    "testId": 19
   }
 ]
