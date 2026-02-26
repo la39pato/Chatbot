@@ -17,4 +17,8 @@ describe("FizzBuzz", () => {
     it("Deberia tomar en cuenta el caso de un numero divisible por 3", () => {
         expect(fizzbuzz(3)).toEqual("1 2 Fizz");
     });
+    
+    it("Deberia tomar en cuenta los numeros que no sean divisibles por 3", () => {
+        expect(fizzbuzz(4)).toEqual("1 2 Fizz 4");
+    });
 });
