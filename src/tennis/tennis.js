@@ -1,5 +1,7 @@
-function score(player1, player2) {
+class Tennis{
+    score(player1, player2) {
     return "Love - Love";
 }
+}
 
-export default score;
+export default Tennis;

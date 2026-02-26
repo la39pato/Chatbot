@@ -1,11 +1,16 @@
-import score from "./tennis.js";
+import Tennis from "./tennis.js";
 
 describe("tennis", () => {
     it("Deberia tomar en cuenta el caso de inicio", () => {
-        expect(score(0,0)).toEqual("Love - Love");
+        let tennis = new Tennis ();
+        expect(tennis.score()).toEqual("Love - Love");
     });
 
-    
+    // it("Jugador 1 anota un punto", () => {
+    //    let tennis = Tennis.new();
+    //     tennis.player1Scores();
+    //     expect(tennis.score()).toEqual("Fifteen - Love");
+    // });
 });
 
 

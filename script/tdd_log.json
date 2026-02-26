@@ -150,9 +150,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "87d97a1f9cad16faa5c93d8038663bd66ae27669",
     "commitName": "feat: prueba inicial del juego",
     "commitTimestamp": 1772113993328,
     "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactory: del codigo inicial del juego",
+    "commitTimestamp": 1772114417888,
+    "testId": 26
   }
 ]

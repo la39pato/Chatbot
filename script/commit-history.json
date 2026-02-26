@@ -475,17 +475,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "87d97a1f9cad16faa5c93d8038663bd66ae27669",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-26T13:53:12.000Z",
       "message": "feat: prueba inicial del juego",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/87d97a1f9cad16faa5c93d8038663bd66ae27669"
     },
     "stats": {
       "total": 16,
       "additions": 16,
       "deletions": 0,
+      "date": "2026-02-26"
+    },
+    "coverage": 84.21,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-26T14:00:16.000Z",
+      "message": "refactory: del codigo inicial del juego",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
       "date": "2026-02-26"
     },
     "coverage": 84.21,
