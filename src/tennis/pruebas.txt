@@ -1,0 +1,46 @@
+SCENARIO
+empieza el set -> Love-Love
+jugador 1 anota -> 15-Love
+jugador 2 anota -> 15-15
+jugador 1 anota -> 30-15
+jugador 2 anota -> 30-30
+jugador 1 anota -> 40-30
+jugador 2 anota -> Deuce ( "caso de empate" )
+
+//caso de empate 1 jugador debe ganar 2 veces seguidas si no es asi entonces volvemos a Deuce
+jugador 1 anota -> Advantage Player 1
+jugador 1 anota -> Game for Player 1
+
+//CASOS DE PRUEBA
+(inicio) -> "Love-Love"
+
+(j1 anota 1 vez ) -> "15-Love"
+(j1 anota 2 vez ) -> "30-Love"
+(j1 anota 3 vez ) -> "40-Love"
+(j1 anota 4 vez ) -> "Game for Player 1"
+
+---
+
+(j2 anota 1 vez y j1 en 0 ) -> "Love-15"
+(j2 anota 2 vez y j1 en 0 ) -> "Love-30"
+(j2 anota 3 vez y j1 en 0 ) -> "Love-40"
+(j2 anota 4 vez y j1 en 0 ) -> "Game for Player 1"
+
+---
+
+(j1 anota 3 veces ; j2 anota 3 veces ) -> "Deuce"
+
+---
+
+(j1 anota 1 vez despues de Deuce) -> "Advantage for Player 1"
+(j1 anota 2 veces despues de Deuce) -> "Game for Player 1"
+
+---
+
+(j2 anota 1 vez despues de Deuce) -> "Advantage for Player 2"
+(j2 anota 2 veces despues de Deuce) -> "Game for Player 2"
+
+---
+
+
+

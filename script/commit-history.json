@@ -437,16 +437,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a5f9d1a1ba4543b1e0f250b1a9176363f1946845",
     "author": "Nataly",
     "commit": {
       "date": "2026-02-26T13:20:05.000Z",
       "message": "nuevo ejercicio",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/a5f9d1a1ba4543b1e0f250b1a9176363f1946845"
     },
     "stats": {
       "total": 0,
       "additions": 0,
+      "deletions": 0,
+      "date": "2026-02-26"
+    },
+    "coverage": 83.78,
+    "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-02-26T13:46:20.000Z",
+      "message": "feat: creacion de prueba para el juego de tennis",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 46,
       "deletions": 0,
       "date": "2026-02-26"
     },
