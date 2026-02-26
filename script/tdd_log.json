@@ -126,9 +126,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d6a7a8ceb4ed1fdaec1224ea152390acd2f8c80c",
     "commitName": "feat: tomar en cuenta numeros que son modulo de 5 con Buzz",
     "commitTimestamp": 1772108210376,
     "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tomar en cuenta numeros que son modulo de 3 y 5",
+    "commitTimestamp": 1772110898767,
+    "testId": 22
   }
 ]

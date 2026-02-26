@@ -25,5 +25,8 @@ describe("FizzBuzz", () => {
     it("Deberia tomar en cuenta los numeros que sean divisibles por 5", () => {
         expect(fizzbuzz(5)).toEqual("1 2 Fizz 4 Buzz");
     });
-    
+
+    it("Deberia tomar en cuenta los numeros que sean divisibles por 3 y 5", () => {
+        expect(fizzbuzz(15)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz");
+    });
 });
