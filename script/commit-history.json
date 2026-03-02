@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab7791864238cafa78491a3ca4b0447066984846",
     "author": "Nataly",
     "commit": {
       "date": "2026-03-02T00:42:53.000Z",
       "message": "feat: el jugador 2 gana 1 punto",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/ab7791864238cafa78491a3ca4b0447066984846"
     },
     "stats": {
       "total": 2,
@@ -623,6 +623,25 @@
     },
     "coverage": 88.89,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-03-02T00:48:34.000Z",
+      "message": "feat: el jugador 2 gana 2 punto",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-03-02"
+    },
+    "coverage": 89.29,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
