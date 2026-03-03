@@ -1,11 +1,13 @@
 import Tennis from "./tennis.js";
 
 describe("tennis", () => {
+    /*---CASO DE INICIO---*/
     it("Deberia tomar en cuenta el caso de inicio", () => {
         let tennis = new Tennis ();
         expect(tennis.score()).toEqual("Love - Love");
     });
 
+    /*---CASOS JUGADOR 1---*/
     it("Jugador 1 anota un punto", () => {
        let tennis = new Tennis ();
         tennis.player1Scores();
@@ -36,6 +38,7 @@ describe("tennis", () => {
         expect(tennis.score()).toEqual("Game for Player 1");
     });
 
+    /*---CASOS JUGADOR 2---*/
     it("Jugador 2 anota un punto", () => {
        let tennis = new Tennis ();
         tennis.player2Scores();
@@ -48,6 +51,12 @@ describe("tennis", () => {
         tennis.player2Scores();
         expect(tennis.score()).toEqual("Love - 30");
     });
-});
 
-
+    it("Jugador 2 anota 3 puntos", () => {
+         let tennis = new Tennis ();
+        tennis.player2Scores();
+        tennis.player2Scores();
+        tennis.player2Scores();
+        expect(tennis.score()).toEqual("Love - 40");
+    });
+})
