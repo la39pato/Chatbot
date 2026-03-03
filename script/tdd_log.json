@@ -234,9 +234,15 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2cb80c902d3e4fcae08c912dd50b1230437a4cd4",
     "commitName": "feat: el jugador 1 y jugador 2 empatan y jugador 2 gana un punto despues del empate",
     "commitTimestamp": 1772511037215,
     "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: el jugador 1 y jugador 2 empatan y jugador 2 gana dos puntos despues del empate",
+    "commitTimestamp": 1772511070175,
+    "testId": 40
   }
 ]
