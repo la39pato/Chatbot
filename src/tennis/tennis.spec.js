@@ -80,4 +80,17 @@ describe("tennis", () => {
         tennis.player2Scores();
         expect(tennis.score()).toEqual("Deuce");      
     });
+
+    /*---CASOS despues del DEUCE ---*/
+    it("Jugador 1 anota un punto despues del DEUCE", () => {    
+        let tennis = new Tennis ();
+        tennis.player1Scores();
+        tennis.player1Scores();
+        tennis.player1Scores();
+        tennis.player2Scores();
+        tennis.player2Scores();
+        tennis.player2Scores();
+        tennis.player1Scores();
+        expect(tennis.score()).toEqual("Advantage for Player 1");
+    });
 })

@@ -684,12 +684,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "436d766d48cb13a44236c34c9c78ed2fde28b36e",
     "author": "Nataly",
     "commit": {
       "date": "2026-03-03T03:51:30.000Z",
       "message": "feat: el jugador 1 y jugador 2 empatan",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/436d766d48cb13a44236c34c9c78ed2fde28b36e"
     },
     "stats": {
       "total": 19,
@@ -699,6 +699,25 @@
     },
     "coverage": 90.32,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-03-03T04:08:03.000Z",
+      "message": "feat: el jugador 1 y jugador 2 empatan y jugador 1 gana un punto despues del empate",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
+      "date": "2026-03-03"
+    },
+    "coverage": 90.63,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }
