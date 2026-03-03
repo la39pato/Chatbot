@@ -246,9 +246,15 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ec7da9e652c0586f326a4dc29aa759c956ad1d93",
     "commitName": "refac: buscamos la forma de optimizar nuestro codigo de tennis.js",
     "commitTimestamp": 1772511412842,
     "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: le agregamos html , css y js para detalles visuales",
+    "commitTimestamp": 1772511754126,
+    "testId": 42
   }
 ]
