@@ -760,12 +760,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c9cf0aef9afbfc987abb2c7e1585b7d56ead4613",
     "author": "Nataly",
     "commit": {
       "date": "2026-03-03T04:11:09.000Z",
       "message": "feat: el jugador 1 y jugador 2 empatan y jugador 2 gana dos puntos despues del empate",
-      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+      "url": "https://github.com/la39pato/Chatbot/commit/c9cf0aef9afbfc987abb2c7e1585b7d56ead4613"
     },
     "stats": {
       "total": 13,
@@ -774,6 +774,25 @@
       "date": "2026-03-03"
     },
     "coverage": 90.91,
+    "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nataly",
+    "commit": {
+      "date": "2026-03-03T04:16:51.000Z",
+      "message": "refac: buscamos la forma de optimizar nuestro codigo de tennis.js",
+      "url": "https://github.com/la39pato/Chatbot/commit/HEAD"
+    },
+    "stats": {
+      "total": 115,
+      "additions": 71,
+      "deletions": 44,
+      "date": "2026-03-03"
+    },
+    "coverage": 89.09,
     "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
