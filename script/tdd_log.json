@@ -252,9 +252,15 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2dc8d29face9d88ddbbf3deaf879ed51715c53ac",
     "commitName": "style: le agregamos html , css y js para detalles visuales",
     "commitTimestamp": 1772511754126,
     "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "reload : para ver en netlify",
+    "commitTimestamp": 1772512543748,
+    "testId": 43
   }
 ]
