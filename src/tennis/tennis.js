@@ -4,9 +4,14 @@ class Tennis{
         this.player2points = 0;
     }
     score() {
+        /*---Ganan el juego---*/
         if (this.player1points === 4) {
             return "Game for Player 1";
         }
+        if (this.player2points === 4) {
+            return "Game for Player 2";
+        }
+        
         /*---Ganan 1 punto---*/
         let player1Score = "Love ";
         if (this.player1points === 1) {
@@ -32,7 +37,7 @@ class Tennis{
         if (this.player2points === 3) {
             player2Score = " 40";
         }
-        
+
         return player1Score + "-" + player2Score;
     }
 

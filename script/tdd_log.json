@@ -204,9 +204,15 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8aabb5e4a954e02b07b4084a0f257db53a813561",
     "commitName": "feat: el jugador 2 gana 3  puntos",
     "commitTimestamp": 1772509409563,
     "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: el jugador 2 gana el juego",
+    "commitTimestamp": 1772509535358,
+    "testId": 35
   }
 ]
