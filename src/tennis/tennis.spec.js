@@ -93,4 +93,17 @@ describe("tennis", () => {
         tennis.player1Scores();
         expect(tennis.score()).toEqual("Advantage for Player 1");
     });
+
+    it("Jugador 1 anota dos puntos despues del DEUCE", () => {
+        let tennis = new Tennis ();
+        tennis.player1Scores();
+        tennis.player1Scores();
+        tennis.player1Scores();
+        tennis.player2Scores();
+        tennis.player2Scores();
+        tennis.player2Scores();
+        tennis.player1Scores();
+        tennis.player1Scores();
+        expect(tennis.score()).toEqual("Game for Player 1");
+    });
 })
