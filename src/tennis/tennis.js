@@ -11,7 +11,12 @@ class Tennis{
         if (this.player2points === 4) {
             return "Game for Player 2";
         }
-        
+
+        // --- CASO EMPATE (DEUCE) ---
+        if (this.player1points === this.player2points && this.player1points >= 3) {
+            return "Deuce";
+        }
+
         /*---Ganan 1 punto---*/
         let player1Score = "Love ";
         if (this.player1points === 1) {
