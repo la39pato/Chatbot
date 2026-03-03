@@ -20,6 +20,9 @@ class Tennis{
         if (this.player1points >= 4 && this.player1points === this.player2points + 1) {
             return "Advantage for Player 1";
         }
+        if (this.player2points >= 4 && this.player2points === this.player1points + 1) {
+            return "Advantage for Player 2";
+        }
         
         /*---Ganan 1 punto---*/
         let player1Score = "Love ";
